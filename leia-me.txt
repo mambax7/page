@@ -1,0 +1,122 @@
+// ------------------------------------------------------------------------- //
+//                     Easyweb(page) 2.0 for XOOPS2                          //
+//                       < http://www.xoops.no >                             //
+// ------------------------------------------------------------------------- //
+// Author	  : Jan Inge Pettersen (Xend) jan@xendtech.com		     //
+// Author Website : http://www.xoops.no/				     //
+// Licence Type   : GPL							     //
+// ------------------------------------------------------------------------- //
+// Translation	  : GipaPhp giba@foxbrasil.com.br    			     //
+// Author Website : http://xoops.underpop.com				     //
+// language	  : Brazilian Portuguese - x_brazilian_portuguese	     //
+// ------------------------------------------------------------------------- //
+
+Instalação:
+-----------
+
+ Upload "page" diretório e todo o conteúdo para o diretório de modules.
+ 
+	siteroot/modules/page/
+
+ 
+
+
+Configure os seguintes diretórios da sua web com escrita e leitura: 
+
+ siteroot/modules/page/cache/pics		(777)
+ siteroot/modules/page/cache/x_thumbs_x		(777)
+
+
+
+Notas:
+--------------------
+ Com este módulo, voce pode fazer uma Startpage e páginas simples em 2 niveis ou use
+ [pagebreak] para obter multi niveis.
+ Voce pode incluir conteúdo para todos os niveis
+
+ "Edita Paginas"
+ "Edita Startpage"
+ "Easyveb Sideblock"
+
+Por favor, não esqueça de ativar o sideblock..!
+
+
+inf!
+ 
+Nome do grupo está no menu de niveis de links no sideblock.
+
+
+WYSIWYG editor não dá suporte para tags PHP:
+	
+	<--
+	<>
+	<php
+	?>
+
+
+
+
+Erros:
+--------------------
+Favor nos enviem agora, esta é uma versão beta.
+
+
+
+Bom uso
+
+
+
+
+
+of English Installation:
+------------------------
+
+ Upload "page" folder and all contents to modules folder.
+ 
+	siteroot/modules/page/
+
+ 
+
+
+Set the following directories world writeable: 
+
+ siteroot/modules/page/cache/pics		(777)
+ siteroot/modules/page/cache/x_thumbs_x		(777)
+
+
+
+Notes:
+--------------------
+ With this module , you can make Startpage and singel pages in two level or use
+ [pagebreak] to have multi level.
+ You can add content to all level's
+
+ "Edit Pages"
+ "Edit Startpage"
+ "Easyveb Sideblock"
+
+Please remember activate sideblock..!
+
+
+inf!
+ 
+Group name is main level of links in sideblock.
+
+
+WYSIWYG editor do not support PHP or open tags:
+	
+	<--
+	<>
+	<php
+	?>
+
+
+
+
+Bugs:
+--------------------
+Please let me now, this is a beta.
+
+
+
+Enjoy-it !

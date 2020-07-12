@@ -1,0 +1,34 @@
+<?php
+$modversion['name']         = _MI_EASYWEB_NAME;
+$modversion['version']      = 2.10;
+$modversion['description']  = _MI_EASYWEB_DESC;
+$modversion['credits']      = "The XOOPS Project";
+$modversion['author']       = "Jan I Pettersen (Xend)<br />( http://www.xendtech.com/ )";
+$modversion['help']         = "images/wysiwyg/easyweb.html";
+$modversion['license']      = "GPL see LICENSE";
+$modversion['official']     = 1;
+$modversion['image']        = "images/easyweb_slogo.png";
+$modversion['dirname']      = "page";
+$modversion['sqlfile']['mysql'] = "sql/mysql.sql";
+$modversion['tables'][0] = "eascont";
+$modversion['tables'][1] = "easyweb";
+$modversion['tables'][2] = "easyweb_startpage";
+$modversion['blocks'][1]['file'] = "/easyweb.php";
+$modversion['blocks'][1]['name']        = _MI_EASYWEB_1;
+$modversion['blocks'][1]['description'] = "Content box";
+$modversion['blocks'][1]['show_func']   = "b_easyweb_show";
+$modversion['blocks'][1]['template']    = 'block_easyweb.html';
+$modversion['hasSearch'] = 1;
+$modversion['search']['file'] = "include/search.inc.php";
+$modversion['search']['func'] = "easyweb_search";
+$modversion['hasAdmin'] = 1;
+$modversion['adminindex'] = "admin/index.php";
+$modversion['adminmenu']  = "admin/menu.php";
+$modversion['hasMain'] = 1;
+$modversion['templates'][1]['file'] = 'startpage.html';
+$modversion['templates'][1]['description'] = 'Show startpage page';
+$modversion['templates'][2]['file']        = 'show.html';
+$modversion['templates'][2]['description'] = 'Show sub group page';
+$modversion['templates'][3]['file']        = 'main.html';
+$modversion['templates'][3]['description'] = 'Show main group page';
+?>
